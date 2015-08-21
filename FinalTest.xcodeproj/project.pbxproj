@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0877DF931B86B8F7001D1971 /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877DF911B86B8F7001D1971 /* CustomCellTableViewCell.m */; };
+		0877DF941B86B8F7001D1971 /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0877DF921B86B8F7001D1971 /* CustomCellTableViewCell.xib */; };
+		0877DF981B86BAC6001D1971 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877DF971B86BAC6001D1971 /* Declarations.m */; };
+		0877DF9B1B86BCFC001D1971 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877DF9A1B86BCFC001D1971 /* Map.m */; };
+		0877DF9D1B86E244001D1971 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0877DF9C1B86E244001D1971 /* GoogleService-Info.plist */; };
 		08DFCF7F1B86B6EA0080A6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DFCF7E1B86B6EA0080A6F7 /* main.m */; };
 		08DFCF821B86B6EA0080A6F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DFCF811B86B6EA0080A6F7 /* AppDelegate.m */; };
 		08DFCF851B86B6EA0080A6F7 /* FinalTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08DFCF831B86B6EA0080A6F7 /* FinalTest.xcdatamodeld */; };
-		08DFCF881B86B6EA0080A6F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DFCF871B86B6EA0080A6F7 /* ViewController.m */; };
+		08DFCF881B86B6EA0080A6F7 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DFCF871B86B6EA0080A6F7 /* Start.m */; };
 		08DFCF8B1B86B6EA0080A6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DFCF891B86B6EA0080A6F7 /* Main.storyboard */; };
 		08DFCF8D1B86B6EA0080A6F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DFCF8C1B86B6EA0080A6F7 /* Images.xcassets */; };
 		08DFCF901B86B6EA0080A6F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DFCF8E1B86B6EA0080A6F7 /* LaunchScreen.xib */; };
 		08DFCF9C1B86B6EA0080A6F7 /* FinalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DFCF9B1B86B6EA0080A6F7 /* FinalTestTests.m */; };
+		08DFCFA61B86B7080080A6F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 08DFCFA51B86B7080080A6F7 /* Podfile */; };
+		4118286687815C609E07B362 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CAAD12046C2B04711E1C79 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +35,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0877DF901B86B8F7001D1971 /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
+		0877DF911B86B8F7001D1971 /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
+		0877DF921B86B8F7001D1971 /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		0877DF961B86BAC6001D1971 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		0877DF971B86BAC6001D1971 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		0877DF991B86BCFC001D1971 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		0877DF9A1B86BCFC001D1971 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		0877DF9C1B86E244001D1971 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		08DFCF791B86B6EA0080A6F7 /* FinalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DFCF7D1B86B6EA0080A6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08DFCF7E1B86B6EA0080A6F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08DFCF801B86B6EA0080A6F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08DFCF811B86B6EA0080A6F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		08DFCF841B86B6EA0080A6F7 /* FinalTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalTest.xcdatamodel; sourceTree = "<group>"; };
-		08DFCF861B86B6EA0080A6F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		08DFCF871B86B6EA0080A6F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08DFCF861B86B6EA0080A6F7 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		08DFCF871B86B6EA0080A6F7 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		08DFCF8A1B86B6EA0080A6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08DFCF8C1B86B6EA0080A6F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		08DFCF8F1B86B6EA0080A6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		08DFCF951B86B6EA0080A6F7 /* FinalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DFCF9A1B86B6EA0080A6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08DFCF9B1B86B6EA0080A6F7 /* FinalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalTestTests.m; sourceTree = "<group>"; };
+		08DFCFA51B86B7080080A6F7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		18CAAD12046C2B04711E1C79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		819BDE0A3E5931C2FDF4E19B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "FinalTest/Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A90C2516BD87E52F1C39D074 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "FinalTest/Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4118286687815C609E07B362 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +82,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0877DF8D1B86B800001D1971 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				08DFCF811B86B6EA0080A6F7 /* AppDelegate.m */,
+				08DFCF801B86B6EA0080A6F7 /* AppDelegate.h */,
+				0877DF961B86BAC6001D1971 /* Declarations.h */,
+				0877DF971B86BAC6001D1971 /* Declarations.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		0877DF8E1B86B806001D1971 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08DFCF871B86B6EA0080A6F7 /* Start.m */,
+				08DFCF861B86B6EA0080A6F7 /* Start.h */,
+				0877DF991B86BCFC001D1971 /* Map.h */,
+				0877DF9A1B86BCFC001D1971 /* Map.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0877DF8F1B86B8BE001D1971 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				0877DF901B86B8F7001D1971 /* CustomCellTableViewCell.h */,
+				0877DF911B86B8F7001D1971 /* CustomCellTableViewCell.m */,
+				0877DF921B86B8F7001D1971 /* CustomCellTableViewCell.xib */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
 		08DFCF701B86B6EA0080A6F7 = {
 			isa = PBXGroup;
 			children = (
 				08DFCF7B1B86B6EA0080A6F7 /* FinalTest */,
 				08DFCF981B86B6EA0080A6F7 /* FinalTestTests */,
 				08DFCF7A1B86B6EA0080A6F7 /* Products */,
+				4D198B7C43BBB5906C48FC14 /* Pods */,
+				BEF3DB17C80FA04C42E4A060 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +137,9 @@
 		08DFCF7B1B86B6EA0080A6F7 /* FinalTest */ = {
 			isa = PBXGroup;
 			children = (
-				08DFCF801B86B6EA0080A6F7 /* AppDelegate.h */,
-				08DFCF811B86B6EA0080A6F7 /* AppDelegate.m */,
-				08DFCF861B86B6EA0080A6F7 /* ViewController.h */,
-				08DFCF871B86B6EA0080A6F7 /* ViewController.m */,
+				0877DF8F1B86B8BE001D1971 /* Customized */,
+				0877DF8E1B86B806001D1971 /* Controllers */,
+				0877DF8D1B86B800001D1971 /* Main */,
 				08DFCF891B86B6EA0080A6F7 /* Main.storyboard */,
 				08DFCF8C1B86B6EA0080A6F7 /* Images.xcassets */,
 				08DFCF8E1B86B6EA0080A6F7 /* LaunchScreen.xib */,
@@ -99,8 +152,10 @@
 		08DFCF7C1B86B6EA0080A6F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0877DF9C1B86E244001D1971 /* GoogleService-Info.plist */,
 				08DFCF7D1B86B6EA0080A6F7 /* Info.plist */,
 				08DFCF7E1B86B6EA0080A6F7 /* main.m */,
+				08DFCFA51B86B7080080A6F7 /* Podfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +177,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4D198B7C43BBB5906C48FC14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819BDE0A3E5931C2FDF4E19B /* Pods.debug.xcconfig */,
+				A90C2516BD87E52F1C39D074 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEF3DB17C80FA04C42E4A060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CAAD12046C2B04711E1C79 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08DFCF9F1B86B6EA0080A6F7 /* Build configuration list for PBXNativeTarget "FinalTest" */;
 			buildPhases = (
+				51B30C610E0E8D58D514C8E0 /* Check Pods Manifest.lock */,
 				08DFCF751B86B6EA0080A6F7 /* Sources */,
 				08DFCF761B86B6EA0080A6F7 /* Frameworks */,
 				08DFCF771B86B6EA0080A6F7 /* Resources */,
+				7163A4A68CB8DE758D8C4CD1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,7 +278,10 @@
 			files = (
 				08DFCF8B1B86B6EA0080A6F7 /* Main.storyboard in Resources */,
 				08DFCF901B86B6EA0080A6F7 /* LaunchScreen.xib in Resources */,
+				0877DF941B86B8F7001D1971 /* CustomCellTableViewCell.xib in Resources */,
+				08DFCFA61B86B7080080A6F7 /* Podfile in Resources */,
 				08DFCF8D1B86B6EA0080A6F7 /* Images.xcassets in Resources */,
+				0877DF9D1B86E244001D1971 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +294,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51B30C610E0E8D58D514C8E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7163A4A68CB8DE758D8C4CD1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/FinalTest/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08DFCF751B86B6EA0080A6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				08DFCF821B86B6EA0080A6F7 /* AppDelegate.m in Sources */,
+				0877DF9B1B86BCFC001D1971 /* Map.m in Sources */,
 				08DFCF851B86B6EA0080A6F7 /* FinalTest.xcdatamodeld in Sources */,
-				08DFCF881B86B6EA0080A6F7 /* ViewController.m in Sources */,
+				0877DF981B86BAC6001D1971 /* Declarations.m in Sources */,
+				08DFCF881B86B6EA0080A6F7 /* Start.m in Sources */,
+				0877DF931B86B8F7001D1971 /* CustomCellTableViewCell.m in Sources */,
 				08DFCF7F1B86B6EA0080A6F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +462,7 @@
 		};
 		08DFCFA01B86B6EA0080A6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819BDE0A3E5931C2FDF4E19B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinalTest/Info.plist;
@@ -359,6 +473,7 @@
 		};
 		08DFCFA11B86B6EA0080A6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90C2516BD87E52F1C39D074 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinalTest/Info.plist;
@@ -420,6 +535,7 @@
 				08DFCFA11B86B6EA0080A6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08DFCFA21B86B6EA0080A6F7 /* Build configuration list for PBXNativeTarget "FinalTestTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +544,7 @@
 				08DFCFA41B86B6EA0080A6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

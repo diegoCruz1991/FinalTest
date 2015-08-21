@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Google/Analytics.h>
 
-@interface ViewController : UIViewController
+@interface Start : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
+@property (strong, nonatomic) IBOutlet UITableView *tblMain;
 
 @end
 
